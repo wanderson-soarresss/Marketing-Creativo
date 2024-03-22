@@ -7,7 +7,7 @@ body{
     padding: 15px;
 }
 
-header{
+header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -19,8 +19,30 @@ header{
     line-height: 10px;
 }
 
-li{
+li {
     display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn {
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover {
+    background-color: rgb(132, 14, 201);
+    color: white;
 }
 
 h1 {
@@ -31,4 +53,31 @@ main{
     display: flex;
     flex-direction: row;
     margin: 50px;
+}
+
+h2 {
+    font-size: 50px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+    
+    
+}
+
+span {
+    color: rgb(132, 14, 201);
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+img {
+    width: 580px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
 }
