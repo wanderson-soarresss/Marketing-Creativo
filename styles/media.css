@@ -1,10 +1,79 @@
-@media screen and (max-width:760px){
-    header {
-        flex-direction: column;
+@media  screen and (max-width: 500px){
+
+    body{
+        max-width: 500px;
+        margin: 0;
+        padding: 0;
     }
+
+    header {
+        display:inline-block;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+
+
+
+     h1{
+       color: red;
+       font-size: 20px;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+    li {
+        font-size: 10px;
+ 
+    }
+
+
+
 
     main {
         flex-direction: column;
+    }
+
+    h2 {
+        font-size: 38px;
+    }
+
+    form {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    input {
+        align-self: center;
+    }
+
+    img{
+       display: none;
+    }
+
+    
+}
+
+@media screen and (max-width:760px){
+    header {
+        display: flex;
+        flex-direction: row;
+    }
+
+    main {
+        flex-direction: row;
+        padding: 10px;
+        
+    }
+
+    main p{
+        display: inline-block;
+        margin: auto;
     }
 
     h2 {
